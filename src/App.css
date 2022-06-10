@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+@import "antd/dist/antd.css";
+#NavbarTop {
+  background-color: white;
+  box-shadow: 0px 0px 8px 0px #888888;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  font-size: x-large;
+  font-weight: bold;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#dot {
+  font-weight: bold;
+  color: orange;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn {
+  background-color: #023047;
   color: white;
+  font-size: small;
+  width: 130px;
 }
-
-.App-link {
-  color: #61dafb;
+#btn-logIn {
+  background-color: #fb8501;
+  color: white;
+  width: 130px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#Column {
+  margin-top: 50px;
+}
+.container {
+  width: 300px;
+  text-align: center;
+  margin: auto;
+}
+a {
+  color: #023047;
+}
+.login-form-forgot {
+  float: right;
+}
+.checkbox {
+  float: left;
 }
